@@ -11,12 +11,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlBuilder", "Creational\Builder\UrlBuilder\UrlBuilder.csproj", "{7079E089-7AD8-481E-9E95-DA5DC4E27EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.Test", "Creational\Builder\Builder.Test\Builder.Test.csproj", "{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7079E089-7AD8-481E-9E95-DA5DC4E27EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7079E089-7AD8-481E-9E95-DA5DC4E27EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7079E089-7AD8-481E-9E95-DA5DC4E27EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7079E089-7AD8-481E-9E95-DA5DC4E27EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {CC38D9FE-3D93-4D0A-949C-A7ADF72CAFE3}
+		{7079E089-7AD8-481E-9E95-DA5DC4E27EE7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9D776E80-3753-4EEB-AFB1-F78A6FFA7C1F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {564DFD42-36E6-40D5-B9E2-927FA9B9E039}
